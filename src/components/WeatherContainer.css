@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+.weather-container {
+    height: 20rem;
+    width: 18rem;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(2px);
+    border-radius: 3rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city-name-input{
+    display: flex;
+    justify-content: start;
+    width: 13rem;
+    height: 3rem;
+    align-items: center;
+    border: 0.05rem solid rgb(79, 59, 59);
+    margin-top: 1.6rem;
+    border-radius: 0.5rem;
+    color: rgb(79, 59, 59);
+    padding-left: 1rem;
+    flex-direction: row;
+}
+
+.search-icon-image {
+    width: 1rem;
+    margin-right: 1rem;
+}
+
+.weather-description {
+    display: flex;
+    flex-direction: row;
+    width: 12rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather-icon-image {
+    width: 7rem;
+}
+
+.weather-hours-status {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15rem;
+    padding-bottom: 1rem;
+    border-top: 0.1rem solid rgb(79, 59, 59);
+}
+
+.now-weather {
+    display: flex;
+    flex-direction: column;
+}
+
+.hours-weather-icon
+{
+    width: 2rem;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+}
+
+.temperature-text {
+    font-size: 2rem;
+    font-weight: bold;
+}
+

@@ -12,4 +12,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
