@@ -1,4 +1,7 @@
-.home-page-div{
+*{
+    box-sizing: border-box;
+}
+.page-div{
     display: flex;
     flex-direction: column;
     height: 100vh;

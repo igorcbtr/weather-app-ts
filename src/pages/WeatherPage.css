@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+.weather-page-div {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  margin: 0;
+  background-image: url("../assets/background-image.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+}

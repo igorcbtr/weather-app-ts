@@ -1,13 +1,13 @@
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { SearchContainer } from "../components/SearchContainer";
-import './HomePage.css'
+import { Background } from "../components/Background";
 export function HomePage() {
   return (
-    <div className="home-page-div">
+    <Background>
       <Header />
-      <SearchContainer/>
+      <SearchContainer />
       <Footer />
-    </div>
+    </Background>
   );
 }
